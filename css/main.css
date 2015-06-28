@@ -1,0 +1,58 @@
+/******************************
+GENERAL
+******************************/
+page {background-image}
+a {
+  text-decoration: none;
+}
+img {
+	max-width: 100%
+}
+body {font-family: 'Arimo', sans-serif;}
+
+#wrapper {;
+	Background: black; 
+	Background: linear-gradient(red, black)
+	max-width: 940px;
+	margin: 0 auto;}
+
+/******************************
+Header
+******************************/
+header {
+	background-color: black;
+	text-align: center}
+h1 {
+	font-family: 'Josefin Sans', sans-serif; 
+	color: #fff;
+	font-size: 2em;
+	font-weight: normal;
+	margin: 20px 0 0;
+}
+h1 {
+	font-family: 'Josefin Sans', sans-serif; 
+	color: #fff;
+	font-size: 1em;
+	font-weight: normal;
+	margin: -5px 0 0;
+}
+/******************************
+NAVIGATION
+******************************/
+#navpanel {background-color: grey}
+nav a {color: #fff, text-shadow: 02}
+
+nav a:hover {color: black}
+nav a.current {
+	text-shadow: none;
+	color: #bbb}
+
+
+p {color: #eee }
+
+
+
+/******************************
+FOOTER
+******************************/
+footer p {color: #999}
