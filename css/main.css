@@ -5,14 +5,11 @@ page {background-image}
 a {
   text-decoration: none;
 }
-img {
-	max-width: 100%
-}
+
 body {font-family: 'Arimo', sans-serif;}
 
-#wrapper {;
-	Background: black; 
-	Background: linear-gradient(red, black)
+#wrapper {	 
+	Background: Black; linear-gradient(grey, white);
 	max-width: 940px;
 	margin: 0 auto;}
 
@@ -39,15 +36,29 @@ h1 {
 /******************************
 NAVIGATION
 ******************************/
-#navpanel {background-color: grey}
-nav a {color: #fff, text-shadow: 02}
+#navpanel li a {background-color: linear-gradient(black, grey)}
+
+nav li {float:inherit;
+	margin:20;
+	color: #fff;
+	text-shadow: 02;
+}
 
 nav a:hover {color: black}
 nav a.current {
 	text-shadow: none;
 	color: #bbb}
+/******************************
+Gallery
+******************************/
 
-
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+#gallery li {
+	}
 p {color: #eee }
 
 
