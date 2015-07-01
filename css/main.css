@@ -38,8 +38,7 @@ h2 {
 /******************************
 NAVIGATION
 ******************************/
-nav {
-	text-align: center;
+nav {text-align: center;
 	padding: 10px 0;
 	width: 100%;
 	}
@@ -62,12 +61,15 @@ nav a {
 nav a:hover {color: black}
 nav a.current {
 	text-shadow: none;
+
 	color: #bbb;
 }
+
 
 /******************************
 Gallery
 ******************************/
+
 section p {margin-top: -40px;
 	clear: both;
 	text-align: center;}
@@ -94,6 +96,7 @@ section p {margin-top: -40px;
 #gallery li:hover a p {color: black}
 
 
+
 /******************************
 FOOTER
 ******************************/
@@ -103,9 +106,6 @@ footer {
 	padding-top: 30px;
 	clear: both;
 	color: #999}
-
-
-
 
 
 
