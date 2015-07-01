@@ -39,42 +39,36 @@ h2 {
 NAVIGATION
 ******************************/
 nav {
+	text-align: center;
+	padding: 10px 0;
 	width: 100%;
-	background-color: grey
 	}
 
 nav ul {
 	list-style: none;
-	margin: 0 auto;
+	margin: 20 10px;
+	padding: 0;
 }
 
 nav li {
-	float: left;
 	display: inline-block;
-	margin:20;
+	margin: 0 10px;
 	color: #fff;
 }
-
+nav a {
+	font-weight: bold;
+	padding: 5px 5px;
+}
 nav a:hover {color: black}
 nav a.current {
 	text-shadow: none;
-	color: #bbb}
-
-/******************************
-FOOTER
-******************************/
-footer {
-	font-size: 0.75em;
-	text-align: right;
-	padding-top: 30px;
-	clear: both;
-	color: #999}
-
+	color: #bbb;
+}
 
 /******************************
 Gallery
 ******************************/
-section p {
+section p {margin-top: -40px;
 	clear: both;
 	text-align: center;}
 #gallery {
@@ -98,6 +92,20 @@ section p {
 	background-color: #bbb;
 }
 #gallery li:hover a p {color: black}
+
+
+/******************************
+FOOTER
+******************************/
+footer {
+	font-size: 0.75em;
+	text-align: right;
+	padding-top: 30px;
+	clear: both;
+	color: #999}
+
+
+
 
 
 
