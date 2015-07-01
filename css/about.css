@@ -1,0 +1,123 @@
+/******************************
+GENERAL
+******************************/
+page {background-image}
+a {
+  text-decoration: none !important;
+}
+
+body {font-family: 'Arimo', sans-serif;}
+img {max-width: 100%;}
+
+#wrapper {	 
+	color: black);
+	max-width: 940px;
+	margin: 0 auto; 
+	padding: 5%;}
+
+/******************************
+Header
+******************************/
+header {
+	background-color: black;
+	text-align: center}
+h1 {
+	font-family: 'Josefin Sans', sans-serif; 
+	color: #fff;
+	font-size: 2em;
+	font-weight: normal;
+	margin: 20px 0 0;
+}
+h2 {
+	font-family: 'Josefin Sans', sans-serif; 
+	color: #fff;
+	font-size: 1em;
+	font-weight: normal;
+	margin: -5px 0 0;
+}
+/******************************
+NAVIGATION
+******************************/
+nav {text-align: center;
+	padding: 10px 0;
+	width: 100%;
+	}
+
+nav ul {
+	list-style: none;
+	margin: 20 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 10px;
+	color: #fff;
+}
+nav a {
+	font-weight: bold;
+	padding: 5px 5px;
+}
+nav a:hover {color: black}
+nav a.current {
+	text-shadow: none;
+
+	color: #bbb;
+}
+
+
+/******************************
+Gallery
+******************************/
+
+section ul {margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+}
+#bio ul li {
+	width: 45%;
+	margin: 2.5%;
+	background-color: black;
+	color: #fff;
+text-align: right}
+.bio {float: left;
+	width: 45%;
+	margin-right: -20%;
+	padding: 5% 25% 5% 5%;
+	font-size: medium;
+	background-color: grey;
+	color: #fff;}
+
+.profile_pic {float: left;
+	display: inline;
+	width: 45%;
+	border-radius: 100%;
+}
+
+
+
+
+
+
+/******************************
+FOOTER
+******************************/
+
+footer {
+	font-size: 0.75em;
+	padding-top: 10%;
+	clear: both;
+	color: #999;
+	text-align:right;}
+footer .social_links {
+	width: 20px;
+	height: 20px;
+	margin: 10px 50%;
+	padding: 5px;
+	clear: both;
+	color: #999}
+
+
+
