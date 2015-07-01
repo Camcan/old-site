@@ -10,7 +10,7 @@ body {font-family: 'Arimo', sans-serif;}
 img {max-width: 100%;}
 
 #wrapper {	 
-	background-color: black);
+	color: black);
 	max-width: 940px;
 	margin: 0 auto; 
 	padding: 5%;}
@@ -38,8 +38,7 @@ h2 {
 /******************************
 NAVIGATION
 ******************************/
-nav {
-	text-align: center;
+nav {text-align: center;
 	padding: 10px 0;
 	width: 100%;
 	}
@@ -62,36 +61,44 @@ nav a {
 nav a:hover {color: black}
 nav a.current {
 	text-shadow: none;
+
 	color: #bbb;
 }
+
 
 /******************************
 Gallery
 ******************************/
-section p {margin-top: -40px;
-	clear: both;
-	text-align: center;}
-#gallery {
-	margin: 0;
+
+section ul {margin: 0;
 	padding: 0;
-	list-style: none
+	list-style: none;
 }
-#gallery li {
-	float: left;
+
+}
+#bio ul li {
 	width: 45%;
 	margin: 2.5%;
 	background-color: black;
+	color: #fff;
+text-align: right}
+.bio {float: left;
+	width: 45%;
+	margin-right: -20%;
+	padding: 5% 25% 5% 5%;
+	font-size: medium;
+	background-color: grey;
 	color: #fff;}
 
-#gallery li a p {
-	color: white;
-	margin: 0;
-	padding: 5%;
-	font-size: small;}
-#gallery li:hover {
-	background-color: #bbb;
+.profile_pic {float: left;
+	display: inline;
+	width: 45%;
+	border-radius: 100%;
 }
-#gallery li:hover a p {color: black}
+
+
+
+
 
 
 /******************************
@@ -111,12 +118,6 @@ footer .social_links {
 	padding: 5px;
 	clear: both;
 	color: #999}
-
-
-
-
-
-
 
 
 
