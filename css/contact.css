@@ -70,13 +70,13 @@ nav a.current {
 Contact Deets
 ******************************/
 
-ul.contact-info {list-style: none;
+.contact-info {list-style: none;
 	padding: 0 10%;
 	margin:0;
 	font-size: 0.8em;
 	text-align: left;
 }
-ul.contact-info a {
+.contact-info a {
 	display: block;
 	min-height:20px;
 	background-repeat: no-repeat;
