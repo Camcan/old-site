@@ -1,0 +1,113 @@
+/******************************
+GENERAL
+******************************/
+a {
+  text-decoration: none !important;
+}
+
+body {font-family: 'Arimo', sans-serif;}
+img {max-width: 100%;}
+
+#wrapper {	 
+	color: black);
+	max-width: 940px;
+	margin: 0 auto; 
+	padding: 5%;}
+
+/******************************
+Header
+******************************/
+header h1, header h2 {
+	background-color: black;
+	text-align: center}
+h1 {
+	font-family: 'Josefin Sans', sans-serif; 
+	color: #fff;
+	font-size: 2em;
+	font-weight: normal;
+	margin: 20px 0 0;
+}
+h2 {
+	font-family: 'Josefin Sans', sans-serif; 
+	color: #fff;
+	font-size: 1em;
+	font-weight: normal;
+	margin: -5px 0 0;
+}
+/******************************
+NAVIGATION
+******************************/
+nav {text-align: center;
+	padding: 10px 0;
+	width: 100%;
+	}
+
+nav ul {
+	list-style: none;
+	margin: 20 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 10px;
+	color: #fff;
+}
+nav a {
+	font-weight: bold;
+	padding: 5px 5px;
+}
+nav a:hover {color: black}
+nav a.current {
+	text-shadow: none;
+
+	color: #bbb;
+}
+
+
+/******************************
+Contact Deets
+******************************/
+
+ul.contact-info {list-style: none;
+	padding: 0 10%;
+	margin:0;
+	font-size: 0.8em;
+	text-align: left;
+}
+ul.contact-info a {
+	display: block;
+	min-height:20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+	max-width: 300px
+}
+
+
+.contact-info li.phone a {background-image: url('../img/phone.png');}
+.contact-info li.facebook a {background-image: url('../img/facebook.png');}
+.contact-info li.mail a {background-image: url('../img/mail.png');}
+
+
+/******************************
+FOOTER
+******************************/
+
+footer {
+	font-size: 0.75em;
+	padding-top: 10%;
+	clear: both;
+	color: #999;
+	text-align:right;}
+footer .social_links {
+	width: 20px;
+	height: 20px;
+	margin: 10px 50%;
+	padding: 5px;
+	clear: both;
+	color: #999}
+
+
+
